@@ -1,13 +1,13 @@
 var cols,rows;
-var w = 15;
+var w = 20;
 var grid = [];
 
 var current;
 var stack = [];
 
 function setup(){
-  //frameRate(5);
-  createCanvas(400, 400);
+  frameRate(120);
+  createCanvas(800, 800);
   cols = floor(width/w);
   rows = floor(height/w);
 
